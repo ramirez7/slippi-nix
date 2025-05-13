@@ -27,7 +27,7 @@
     defaults = {
       netplay = {
         version = "3.4.6";
-        hash = nixpkgs.lib.fakeHash;
+        hash = "sha256-yjHoLOQpEXgjWMHxDiHYUmOP3e1zt3j13Gywx/PRe3w=";
       };
       netplay-beta = {
         version = "4.0.0-mainline-beta.8";
