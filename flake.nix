@@ -27,7 +27,7 @@
     defaults = {
       netplay = {
         version = "3.4.6";
-        hash = nixpkgs.lib.fakeSha256;
+        hash = nixpkgs.lib.fakeHash;
       };
       netplay-beta = {
         version = "4.0.0-mainline-beta.8";
