@@ -38,8 +38,8 @@
         hash = "sha256-iCBdlcBPSRT8m772sqI+gSfNmVNAug0SfkSwVUE6+fE=";
       };
       launcher = {
-        version = "2.11.8";
-        hash = "sha256-8krtzo878nh6oMTUhyPJIa/RkkebqQckb4Mh2+9SaiU=";
+        version = "2.11.10";
+        hash = nixpkgs.lib.fakeHash;
       };
     };
 
