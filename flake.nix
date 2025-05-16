@@ -39,7 +39,7 @@
       };
       launcher = {
         version = "2.11.10";
-        hash = nixpkgs.lib.fakeHash;
+        hash = "sha256-OrWd0jVqe6CzNbVRNlm2alt2NZ8uBYeHiASaB74ouW4=";
       };
     };
 
