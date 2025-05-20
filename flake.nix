@@ -35,7 +35,7 @@
       };
       playback = {
         version = "3.4.6";
-        hash = nixpkgs.lib.fakeHash;
+        hash = "sha256-bHbsdUs1pm7f/NSUn6f4s3LEL1Wbobq0h0TcQ0dCvbw=";
       };
       launcher = {
         version = "2.11.10";
