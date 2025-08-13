@@ -27,7 +27,7 @@
     defaults = {
       netplay = {
         version = "3.5.0";
-        hash = "sha256-IUx4gUicUZXOxwK50FEYf5I13z5UkYJaRBmEv2lC5hg=";
+        hash = "sha256-a8suuwJRENDe3nvdkN2krK7DEdZLTXCdALnV+/ePyNo=";
       };
       netplay-beta = {
         version = "4.0.0-mainline-beta.8";
@@ -35,7 +35,7 @@
       };
       playback = {
         version = "3.4.6";
-        hash = "sha256-bHbsdUs1pm7f/NSUn6f4s3LEL1Wbobq0h0TcQ0dCvbw=";
+        hash = "sha256-X8tBAqxURHZ6Jo9fpDB3cu6T3rcls9iYqY6OZW4f/FA=";
       };
       launcher = {
         version = "2.11.10";
