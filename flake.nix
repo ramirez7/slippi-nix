@@ -27,14 +27,14 @@
     defaults = {
       netplay = {
         version = "3.5.0";
-        hash = nixpkgs.lib.fakeHash;
+        hash = "sha256-X8tBAqxURHZ6Jo9fpDB3cu6T3rcls9iYqY6OZW4f/FA="
       };
       netplay-beta = {
         version = "4.0.0-mainline-beta.8";
         hash = "sha256-f9jx1ZzUr6oxCvPS1RG115EX13ocTeoEAdrke7YnWu0=";
       };
       playback = {
-        version = "3.5.0";
+        version = "3.4.6";
         hash = "sha256-X8tBAqxURHZ6Jo9fpDB3cu6T3rcls9iYqY6OZW4f/FA=";
       };
       launcher = {
