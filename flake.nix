@@ -35,7 +35,7 @@
       };
       playback = {
         version = "3.4.6";
-        hash = "sha256-X8tBAqxURHZ6Jo9fpDB3cu6T3rcls9iYqY6OZW4f/FA=";
+        hash = "sha256-bHbsdUs1pm7f/NSUn6f4s3LEL1Wbobq0h0TcQ0dCvbw=";
       };
       launcher = {
         version = "2.11.10";
