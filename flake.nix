@@ -27,7 +27,7 @@
     defaults = {
       netplay = {
         version = "3.5.2";
-        hash = nixpkgs.lib.fakeHash;
+        hash = "sha256-uXnvbPVNRIZn5wfPfb8jKGr/sBG87UFamFwSiOZZ3hg=";
       };
       netplay-beta = {
         version = "4.0.0-mainline-beta.8";
@@ -108,7 +108,7 @@
       }: let
         pname = "Slippi_Online-x86_64.AppImage";
         zip = fetchzip {
-          hash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
+          inherit hash;
           url = "https://github.com/project-slippi/Ishiiruka/releases/download/v${version}/FM-Slippi-${version}-Linux.zip";
           stripRoot = false;
         };
