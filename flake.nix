@@ -27,7 +27,7 @@
     defaults = {
       netplay = {
         version = "3.5.2";
-        hash = "sha256-uXnvbPVNRIZn5wfPfb8jKGr/sBG87UFamFwSiOZZ3hg=";
+        hash = "sha256-Bvoz4VWSxsh4rtD/MoLdeYpFPr0pMTGziJCZ9JMaN+8=";
       };
       netplay-beta = {
         version = "4.0.0-mainline-beta.8";
@@ -552,7 +552,7 @@
             source = "${
               pkgs.fetchzip {
                 url = "https://github.com/project-slippi/Ishiiruka-Playback/releases/download/v${cfg.playbackVersion}/playback-${cfg.playbackVersion}-Linux.zip";
-                hash = cfg.netplayHash;
+                hash = cfg.playbackHash;
                 stripRoot = false;
               }
             }/Sys";
