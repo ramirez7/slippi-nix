@@ -108,7 +108,7 @@
       }: let
         pname = "Slippi_Online-x86_64.AppImage";
         zip = fetchzip {
-          inherit hash;
+          hash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
           url = "https://github.com/project-slippi/Ishiiruka/releases/download/v${version}/FM-Slippi-${version}-Linux.zip";
           stripRoot = false;
         };
