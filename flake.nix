@@ -26,8 +26,8 @@
   }: let
     defaults = {
       netplay = {
-        version = "3.6.2";
-        hash = "sha256-w3tWli7mG0QpKyOYAXA0TZ02GbXd0jaAohahkhyns/U=";
+        version = "3.6.3";
+        hash = "sha256-x88Us/6g1F6wstTelekktLdp7TPa1gef5OYifKmVvfo=";
       };
       netplay-beta = {
         version = "4.0.0-mainline-beta.8";
