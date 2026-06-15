@@ -27,7 +27,7 @@
     defaults = {
       netplay = {
         version = "3.6.4";
-        hash = "sha256-qkU/Ck9k9gEgxIEeMftvZUIMNjNT5l65fsUmdrDOpBs="
+        hash = "sha256-qkU/Ck9k9gEgxIEeMftvZUIMNjNT5l65fsUmdrDOpBs=";
       };
       netplay-beta = {
         version = "4.0.0-mainline-beta.8";
